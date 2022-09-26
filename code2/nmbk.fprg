@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-25 11.23.45 PM"/>
+        <attribute name="created" value="YXN1cztERVNLVE9QLTdKQzBOQjQ7MjAyMi0wOS0yNTswOS40OS40NSBQTTsyNzQw"/>
+        <attribute name="edited" value="YXN1cztERVNLVE9QLTdKQzBOQjQ7MjAyMi0wOS0yNTsxMS4yMy40NSBQTTsxOzI4MzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pdkt" type="String" array="False" size=""/>
+            <declare name="tembak" type="String" array="False" size=""/>
+            <declare name="jawab" type="Integer" array="False" size=""/>
+            <declare name="balas" type="String" array="False" size=""/>
+            <output expression="&quot;kamu mau gak jadi pacarku?&quot;" newline="True"/>
+            <input variable="tembak"/>
+            <if expression="tembak = &quot;iya aku mau&quot;">
+                <then>
+                    <output expression="&quot;yessss. sekarang kita jadian&quot;" newline="True"/>
+                    <input variable="balas"/>
+                    <if expression="balas=&quot;kamu janji bakal setia ya&quot;">
+                        <then>
+                            <output expression="&quot;ya sayankkuh&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;kamu juga harus setia&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;kenapa kok kamu menolak&quot;" newline="True"/>
+                    <input variable="jawab"/>
+                    <if expression="jawab=&quot;soalnya kamu terlalu baik&quot;">
+                        <then>
+                            <output expression="&quot;oh kamu udah punya cowok&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;makasih udah mau temenan&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
