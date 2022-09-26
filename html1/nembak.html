@@ -1,0 +1,53 @@
+ <html>
+<head>
+<title> NEMBAK KAMU </title>
+
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    alert("Sekarang kita sudah resmi jadian")
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=1
+        }
+}
+</script>
+
+</head>
+<body>
+<h2><center> HAY KAMU SANG PENCURI HATIKU </center><h2>
+<marquee scrolldelay="50" title="Ini Muncul Saat Hover">
+	<h4><br> Mungkin lewat ini aku bisa mengutarakan isi hatiku Sekian lama aku menyimpan rasa ini </br>
+	<br> Mungkin ini sudah waktunya aku mengutarakan semuanya</br></h4>
+	</marquee>
+<img alt="" src="nembak.JPG" height="200" />
+<h3 style="#">KAMU MAU JADI PASANGANKU?</h3>
+<div id="By" style="position:absolute; left:64px; top:370px; width:210px;
+height:210px;">
+<br> <input type="button" value=" YA " onClick="f1()" />
+	</div></br>
+<br>	<div ID="Bn" style="position:absolute; left:166px; top:370px; width:210px; height:210px;">
+	<input type="button" value=" TIDAK " onMouseOver="f()" />
+	</div>
+</br>
+
+</body>
+</html>
